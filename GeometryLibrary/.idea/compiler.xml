@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="geometry-core" />
+        <module name="ThreeDimensionalShapes" />
+        <module name="GeometryUtils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
