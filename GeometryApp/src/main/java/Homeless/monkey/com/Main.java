@@ -6,9 +6,9 @@ public class Main {
         circle.area();
         circle.perimeter();
 
-        Rectangle rect = new Rectangle();
-        rect.area();
-        rect.perimeter();
+        Rectangle rect = new Rectangle(4,5);
+        System.out.printf("Площадь прямоугольника: %f%n", rect.area());
+        System.out.printf("Периметр прямоугольника: %f%n", rect.perimeter());
 
         Triangle triangle = new Triangle();
         triangle.area();
